@@ -4,7 +4,6 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Adobe from '../assets/adobe.png';
 import Python from '../assets/python.png';
-import Tailwind from '../assets/tailwind.png';
 import HTML from '../assets/html.png';
 import Vegas from '../assets/vegas.png';
 import Fl from '../assets/fl.png';
@@ -43,10 +42,6 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
                   <p className='my-4'>PYTHON</p>
               </div>
-              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
-                  <p className='my-4'>TAILWIND</p>
-              </div> */}
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Vegas} alt="HTML icon" />
                   <p className='my-6'>SONY VEGAS PRO</p>
