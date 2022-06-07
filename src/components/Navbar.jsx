@@ -5,15 +5,17 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo-helmet-TEXT.png'
 import '../styles/navbar.css'
 import{Link} from 'react-scroll'
+<link rel="shortcut icon" type="image/jpg" href="/favicon.jpg"/>
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[100px] flex justify-between items-center px-2 bg-[#0a192f] text-gray-300'>
+    
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-2 bg-[#0a192f] text-gray-300'>
       <div>
       <li> 
         <Link to="home" smooth={true} duration={500} >
-        <img src={Logo} alt='Logo' style={{ width: '100px' }} />
+        <img src={Logo} alt='Logo' style={{ width: '70px' }} />
         </Link>
                             </li>
       </div>
