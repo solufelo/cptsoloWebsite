@@ -11,11 +11,11 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
   return (
     
-    <div className='fixed w-full h-[70px] flex justify-between items-center px-3 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[70px] flex list-none justify-between items-center  px-6 gap-3 bg-[#0a192f] text-gray-300'>
       <div>
       <li> 
         <Link to="home" smooth={true} duration={500} >
-        <img src={Logo} alt='Logo' style={{ width: '80px' }} />
+        <img src={Logo} alt='Logo' style={{ width: '60px' }} />
         </Link>
                             </li>
       </div>

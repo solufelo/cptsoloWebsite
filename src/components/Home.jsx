@@ -15,7 +15,7 @@ const Home = () => {
             At the moment, my main goal is to become a full-stack developer and finish my Computer Science degree at Wifrid Laurier University.</p>
             <div> 
               <li>
-                <Link to="skills" smooth={true} duration={500} >
+                <Link to="work" smooth={true} duration={500} >
                   <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ffbd62] hover:border-[#ffbd62]'>
                   View Work
                     <span className='group-hover:rotate-90 duration-300'>
