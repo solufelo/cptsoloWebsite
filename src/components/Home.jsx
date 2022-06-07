@@ -14,7 +14,7 @@ const Home = () => {
             <p className='text-[#7193b9] py-4 max-w-[700px]'>Videography, photography, music production, graphic design, and editing are some of my specialties. 
             At the moment, my main goal is to become a full-stack developer and finish my Computer Science degree at Wifrid Laurier University.</p>
             <div> 
-              <li>
+              <liclass Name="">
                 <Link to="work" smooth={true} duration={500} >
                   <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ffbd62] hover:border-[#ffbd62]'>
                   View Work
@@ -23,7 +23,7 @@ const Home = () => {
                     </span>
                   </button>
               </Link>
-            </li>
+            </liclass>
           </div>
         </div>
         
